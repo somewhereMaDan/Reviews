@@ -3,7 +3,7 @@
 }
 body{
   margin: 0;
-  height: 1000px;
+  /* height: 1000px; */
 }
 .container h2{
   display: flex;
