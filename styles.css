@@ -1,0 +1,99 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  margin: 0;
+  height: 1000px;
+}
+.container h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .title{
+  font-size: 20px;
+}
+.underline{
+  height: 4px;
+  width: 90px;
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(205, 78%, 60%);
+}
+.review{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 580px;
+
+  height: 550px;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.15);
+}
+.img-container{
+  margin-top: 10px;
+  width: 160px;
+}
+#person-img{
+  border: solid;
+  border-color: hsl(205, 78%, 60%);
+  border-radius: 100px;
+  width: 100%;
+  z-index: 100;
+}
+.another-circle{
+  z-index: 1;
+  border-radius: 100px;
+  background-color: hsl(205, 78%, 60%);
+  width: 164px;
+  height: 162px;
+  margin-bottom: -161px;
+  margin-left: 10px;
+}
+.info{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#job, #author{
+  display: flex;
+  justify-content: center;
+}
+#author{
+  margin-bottom: -22px;
+}
+#job{
+  color: hsl(205, 78%, 60%);
+}
+.button-container{
+  display: flex;
+  align-items: center;
+}
+.prev-btn, .next-btn{
+  background-color: hsl(205, 78%, 60%);
+  border-width: 1px;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 80px;
+  height: 30px;
+}
+.random-btn{
+  margin-top: 4px;
+  background-color: hsl(205, 78%, 60%);
+  border-width: 1px;
+  border-radius: 7px;
+  width: 80px;
+  height: 30px;
+}
