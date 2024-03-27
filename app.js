@@ -54,9 +54,9 @@ window.addEventListener('DOMContentLoaded',function(){
 
 function showPerson(person){
   let item = reviews[person];
-  img.src = item.img; 
+  img.src = item.img;
   author.textContent = item.name;
-  job.textContent = item.job;
+  job.textContent = item.job
   info.textContent = item.text;
 }
 
